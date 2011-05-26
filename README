@@ -1,0 +1,15 @@
+Mocminer is a DMKD toolkit written in Perl to mine and translate non-western corpus, 
+discover topics, and the sentiment toward them.
+
+More documentation will come as I clean up this kit.
+
+INSTALLATION:
+
+1) Set the DB up
+mysql -u mocminer -p mocminer < mocminer.sql
+
+2) Install required perl libraries.
+
+3) Install plda
+
+4) ./start.pl ...
