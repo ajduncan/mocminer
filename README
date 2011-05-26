@@ -10,6 +10,12 @@ mysql -u mocminer -p mocminer < mocminer.sql
 
 2) Install required perl libraries.
 
+  perl -MCPAN -e shell
+  install Encode::HanConvert
+  install Encode::HanExtra
+  install Lingua::Translate
+  install Lingua::Translate::Google
+
 3) Install plda
 
 4) ./start.pl ...
